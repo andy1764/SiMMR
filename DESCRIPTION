@@ -1,0 +1,21 @@
+Package: SiMMR
+Title: Similarity-Based Multimodal Regression
+Version: 0.0.0.9000
+Authors@R: 
+  person(given = "Andrew",
+         family = "Chen",
+         role = c("aut", "cre"),
+         email = "andrewac@pennmedicine.upenn.edu",
+         comment = c(ORCID = "0000-0002-5027-6422"))
+Description: Methods and evaluations for harmonization of functional 
+  connectivity matrices. Includes existing and novel methodologies as well as
+  the option to evaluate the impact of harmonization on a wide variety of 
+  network metrics.
+License: Artistic License 2.0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+  stats
+  
