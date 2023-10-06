@@ -27,7 +27,8 @@
 #'   \item{`stat`}{Test statistics computed on original data.}
 #'   \item{`perms`}{Test statistics after permutations.}
 #'   \item{`perm.p`}{Permutation p-values for each test.}
-#' 
+#'   
+#' @import MDMR, stats
 #' @export
 #'
 #' @examples
@@ -45,7 +46,7 @@ simmr <- function(D, X, variables, tests = c("Dempster", "PC"),
   D.scale <- match.arg(D.scale)
   
   # If X is not a matrix, convert to model matrix and define reduced model
-  if (class(X) != "matrix") {
+  if (!("matrix" %in% class(X))) {
     redcols <- unlist(sapply(variables, 
                       function(v) paste(v, levels(X[[v]]), sep = "")))
     X <- model.matrix(~., X)
