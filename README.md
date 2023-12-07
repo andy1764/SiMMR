@@ -24,6 +24,7 @@ simmr(D, X, "var")
 ```
 
 ## 3. Citations
-Please cite the following preprint:
+Please cite the following article:
 
-> Chen, A. A., Weinstein, S. M., Adebimpe, A., Gur, R. C., Gur, R. E., Merikangas, K. R., Satterthwaite, T. D., Shinohara, R. T., & Shou, H. Similarity-Based Multimodal Regression. *bioRxiv* 488201. doi: 10.1101/2022.04.13.488201
+> Chen, A. A., Weinstein, S. M., Adebimpe, A., Gur, R. C., Gur, R. E., Merikangas, K. R., Satterthwaite, T. D., Shinohara, R. T., & Shou, H. (2023). Similarity-based multimodal regression. *Biostatistics*, kxad033. https://doi.org/10.1093/biostatistics/kxad033
+
